@@ -4,7 +4,7 @@ body {
   font-family: Onest, sans-serif;
   font-size: 2rem;
   background-image: url("./assets/bg.jpg");
-  color: rgb(71, 37, 73);
+  color: rgb(34, 16, 64);
   /* color: rgb(71, 37, 73); */
 }
 
@@ -38,7 +38,7 @@ button {
   padding: 0.9rem 1.7rem;
   font-size: 1.5rem;
   font-family: Onest;
-  color: rgb(71, 37, 73);
+  color: rgb(34, 16, 64);
   border-radius: 3rem;
   border: none;
   background-color: rgb(255, 180, 122);

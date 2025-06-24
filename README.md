@@ -1,12 +1,31 @@
-# React + Vite
+# Get Set Go
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application demonstrating CRUD (Create, Read, Update, Delete) functionalities built with modern web technologies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Full CRUD operations
+- Modern React with Hooks
+- Responsive design
+- Clean, intuitive user interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - JavaScript library for building user interfaces
+- **Vite** - Fast build tool and development server
+- **CSS Flexbox** - For responsive layouts
+- **ESLint** - Code linting and formatting
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Acknowledgments
+
+- [Jonas Schmedtmann](https://www.udemy.com/course/the-ultimate-react-course/) - Excellent React tutorials that inspired this project
+- [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier - Essential resource for layout design
+- [Vite](https://vitejs.dev/) - For providing an excellent development experience
+- [React](https://reactjs.org/) - For the amazing Ja
