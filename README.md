@@ -28,4 +28,4 @@ A React application demonstrating CRUD (Create, Read, Update, Delete) functional
 - [Jonas Schmedtmann](https://www.udemy.com/course/the-ultimate-react-course/) - Excellent React tutorials that inspired this project
 - [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier - Essential resource for layout design
 - [Vite](https://vitejs.dev/) - For providing an excellent development experience
-- [React](https://reactjs.org/) - For the amazing Ja
+- [React](https://reactjs.org/) - For the amazing Javascript library
