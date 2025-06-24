@@ -27,12 +27,14 @@ export default function PackingList({ items, onToggle, onDelete, onClear }) {
           />
         ))}
       </ul>
-      <button onClick={() => onClear()}>Clear List</button>
-      <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
-        <option value="input">Sort by input</option>
-        <option value="description">Sort by description</option>
-        <option value="packed">Sort by packed status</option>
-      </select>
+      <div className="action-btn">
+        <button onClick={() => onClear()}>Clear List</button>
+        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+          <option value="input">Sort by input</option>
+          <option value="description">Sort by description</option>
+          <option value="packed">Sort by packed status</option>
+        </select>
+      </div>
     </div>
   );
 }

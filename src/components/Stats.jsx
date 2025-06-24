@@ -5,14 +5,14 @@ export default function Stats({ items }) {
   return (
     <div className="footer">
       {totalItems === 0 ? (
-        <h1>You have no items on your list</h1>
+        <h2>You have no items on your list</h2>
       ) : packedItems === totalItems ? (
-        <h1>GET SET GO</h1>
+        <h2>GET SET GO</h2>
       ) : (
-        <h1>
+        <h2>
           You have {totalItems} on your list, and you've already packed{" "}
           {packedItems} ({percentage}%)
-        </h1>
+        </h2>
       )}
     </div>
   );
