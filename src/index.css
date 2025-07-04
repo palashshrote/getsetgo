@@ -31,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 select,
 input,
@@ -76,4 +77,58 @@ li input {
 .action-btn {
   display: flex;
   gap: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 1.5rem;
+  }
+  .header {
+    font-size: 3.5rem;
+  }
+  .form-input h2 {
+    font-size: 2rem;
+  }
+  select,
+  input,
+  button {
+    padding: 0.6rem 1.4rem;
+    font-size: 1.5rem;
+    font-family: Onest;
+    color: rgb(34, 16, 64);
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(255, 180, 122);
+  }
+  .list ul {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .header {
+    font-size: 2.4rem;
+    word-spacing: normal;
+  }
+  .form-input h2 {
+    font-size: 1.75rem;
+  }
+  select,
+  input,
+  button {
+    padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
+    font-family: Onest;
+    color: rgb(34, 16, 64);
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(255, 180, 122);
+  }
+  .list ul {
+    gap: 0rem;
+    justify-content: space-between;
+  }
 }
